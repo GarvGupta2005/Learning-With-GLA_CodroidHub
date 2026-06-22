@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Register</a>
+        <a href="#">Students</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <header>
+        <h1>Student Registration Portal</h1>
+        <p>Welcome to the Student Registration Portal. Register students and manage records easily.</p>
+        <hr>
+    </header>
+
+    <section class="profile">
+        <img src="Myprofile.jpeg" alt="Student Profile" width="150">
+    </section>
+
+
+    <section>
+        <h2>Student Registration Form</h2>
+
+        <form>
+
+            <label>Full Name:</label>
+            <input type="text" placeholder="Enter Full Name">
+
+            <label>Email Address:</label>
+            <input type="email" placeholder="Enter Email">
+
+            <label>Password:</label>
+            <input type="password" placeholder="Enter Password">
+
+            <label>Age:</label>
+            <input type="number" placeholder="Enter Age">
+
+            <label>Date of Birth:</label>
+            <input type="date">
+
+            <h3>Gender</h3>
+
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+
+            <h3>Skills</h3>
+
+            <input type="checkbox"> HTML
+            <input type="checkbox"> CSS
+            <input type="checkbox"> JavaScript
+            <input type="checkbox"> React
+
+            <h3>Resume Upload</h3>
+
+            <input type="file">
+
+            <br><br>
+
+            <button type="submit">Register Student</button>
+
+        </form>
+    </section>
+
+    
+    <section>
+        <h2>Student Records</h2>
+
+        <table>
+            <tr>
+                <th>Student ID</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>City</th>
+                <th>Email</th>
+            </tr>
+
+            <tr>
+                <td>101</td>
+                <td>Anvita Chauhan</td>
+                <td>B.Tech CSE</td>
+                <td>Mathura</td>
+                <td>anvita@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>102</td>
+                <td>Garv</td>
+                <td>BCA</td>
+                <td>Delhi</td>
+                <td>rahul@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>103</td>
+                <td>Raj</td>
+                <td>B.Tech IT</td>
+                <td>Agra</td>
+                <td>priya@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>104</td>
+                <td>Aman Verma</td>
+                <td>B.Sc CS</td>
+                <td>Noida</td>
+                <td>aman@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>105</td>
+                <td>Sneha Gupta</td>
+                <td>BCA</td>
+                <td>Lucknow</td>
+                <td>sneha@gmail.com</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Welcome Audio Message</h2>
+
+        <audio controls>
+            <source src="welcome.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <section>
+        <h2>Introduction Video</h2>
+
+        <video width="500" controls>
+            <source src="intro.mp4" type="video/mp4">
+        </video>
+    </section>
+
+</body>
+</html>
