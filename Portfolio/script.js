@@ -164,10 +164,10 @@ window.addEventListener('scroll', updateActiveNav);
 // ===== Typewriter Effect =====
 const typedText = document.getElementById('typedText');
 const phrases = [
-    'Web Developer',
-    'Frontend Engineer',
-    'Problem Solver',
-    'Code Enthusiast'
+    'Full Stack Developer',
+    'Firebase & AI Builder',
+    'Health Tech Developer',
+    'Problem Solver'
 ];
 let phraseIndex = 0;
 let charIndex = 0;
