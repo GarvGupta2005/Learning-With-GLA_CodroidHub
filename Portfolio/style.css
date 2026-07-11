@@ -784,6 +784,72 @@ nav {
 .project-link.muted { color: var(--text-muted); }
 .project-link.muted:hover { color: var(--text-secondary); }
 
+/* ===== Certificates ===== */
+.cert-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 60px;
+}
+
+.cert-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.cert-card:hover {
+    border-color: var(--border-glow);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 40px rgba(0, 240, 255, 0.08);
+}
+
+.cert-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 1px solid var(--border);
+}
+
+.cert-icon {
+    font-size: 2.5rem;
+    padding: 32px 24px 0;
+    text-align: center;
+}
+
+.cert-info {
+    padding: 20px 24px 24px;
+}
+
+.cert-org {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--accent-cyan);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.cert-info h3 {
+    font-size: 1.05rem;
+    margin: 8px 0;
+}
+
+.cert-info p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.cert-featured {
+    grid-row: span 1;
+}
+
+.about-card strong {
+    color: var(--text-primary);
+}
+
 /* ===== Timeline ===== */
 .timeline {
     position: relative;
@@ -1064,4 +1130,6 @@ footer {
     .hero { padding-top: 100px; }
 
     .project-features { grid-template-columns: 1fr; }
+
+    .cert-grid { grid-template-columns: 1fr; }
 }

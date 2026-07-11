@@ -165,9 +165,9 @@ window.addEventListener('scroll', updateActiveNav);
 const typedText = document.getElementById('typedText');
 const phrases = [
     'Full Stack Developer',
-    'Firebase & AI Builder',
-    'Health Tech Developer',
-    'Problem Solver'
+    'HackCentrix Winner',
+    'AI & Firebase Builder',
+    'B.Tech CSE @ GLA University'
 ];
 let phraseIndex = 0;
 let charIndex = 0;
@@ -244,7 +244,7 @@ function animateCounters() {
     if (rect.top < window.innerHeight) {
         countersAnimated = true;
         statNums.forEach(stat => {
-            const target = parseInt(stat.dataset.target);
+            const target = parseInt(stat.dataset.target, 10);
             const duration = 2000;
             const start = performance.now();
 
