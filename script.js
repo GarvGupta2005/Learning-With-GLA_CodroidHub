@@ -35,7 +35,7 @@ function displayEmployees()
             <td>${employee.department}</td>
             <td>${employee.position}</td>
             <td>${employee.salary}</td>
-            <td><button onclick="deleteEmployee(${employee.id})">Delete</button></td>
+            <td><button class="delete-btn" onclick="deleteEmployee(${employee.id})">Delete</button></td>
         `
 
         tableBody.appendChild(row)
@@ -109,7 +109,7 @@ function displayFilteredEmployees(employeesToDisplay) {
             <td>${employee.department}</td>
             <td>${employee.position}</td>
             <td>${employee.salary}</td>
-            <td><button onclick="deleteEmployee(${employee.id})">Delete</button></td>
+            <td><button class="delete-btn" onclick="deleteEmployee(${employee.id})">Delete</button></td>
         `;
        
         tableBody.appendChild(row);

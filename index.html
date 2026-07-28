@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Employee Management System</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
         <h1>Employee Management System</h1>
+        <p>Track, filter, and manage your team records in one modern dashboard</p>
     </header>
 
     <main>
@@ -39,8 +44,10 @@
                 <label for="salary">Salary : </label>
                 <input type="number" id="salary" name="salary" required>
 
-                <button type="submit">Submit</button>
-                <button type="reset">Reset</button>
+                <div class="btn-group">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
             </form>
         </section>
 
